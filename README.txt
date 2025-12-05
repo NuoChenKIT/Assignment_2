@@ -5,11 +5,11 @@ I created a "Reduced" version of GPT-2 by surgically removing the last Transform
 
 
 ## 2. Comparison
-| Metric 	      | Original Model 12 Layers | Reduced Model 11 Layers   |
-| **Training Time**   | 05:32 min 		 | 05:12 min 		     |
-| **Training Loss**   | 2.3707 			 | 2.6907                    |
-| **Validation Loss** | 2.8267 			 | 3.1654                    |
-| **Perplexity**      | 19.57 			 | 28.03                     |
+| Metric 	            | Original Model 12 Layers | Reduced Model 11 Layers   |
+| **Training Time**   | 05:32 min 		           | 05:12 min 		             |
+| **Training Loss**   | 2.3707 			             | 2.6907                    |
+| **Validation Loss** | 2.8267 			             | 3.1654                    |
+| **Perplexity**      | 19.57 			             | 28.03                     |
 | **Q&A Accuracy**    | 60%                      | 40%                       |
 
 
