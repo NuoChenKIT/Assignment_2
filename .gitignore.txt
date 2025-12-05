@@ -1,0 +1,9 @@
+models/bmw-gpt2-reduced/original_model/model.safetensors
+
+
+models/bmw-gpt2-reduced/reduced_model/model.safetensors
+
+
+
+
+
