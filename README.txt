@@ -21,7 +21,7 @@ I created a "Reduced" version of GPT-2 by surgically removing the last Transform
 
 ## 4. Discussion & Trade-offs
 **Model Size vs. Quality**: Removing one transformer layer reduced the model size by approximately 7 million parameters (about 5.7% of the total size). Theoretically, this should reduce training memory usage and increase inference speed.
-The quality drop is noticeable. This suggests that for a specific domain like BMW news, the full capacity of GPT-2 might not be strictly necessary, or conversely, that every layer counts for fluency.
+The quality drop is noticeable. The output quality drop is noticeable. This indicates that for specific domains like BMW news release, every layer is important to ensuring text generation capabilities of LLMs.
 
 **Training Speed**: The reduced model trained faster. In a large-scale training environment, reducing layers can significantly save GPU/CPU costs and latency.
 
